@@ -24,7 +24,7 @@ public class GenerateLngLat {
 		} catch (UnsupportedEncodingException e1) {
 			e1.printStackTrace();
 		}
-		String key = "BYuy8ywcKwR4f2vIPtscd4nCZMYth8OV";
+		String key = "xx";
 		String url = String.format("http://api.map.baidu.com/geocoder?address=%s&output=json&key=%s", address, key);
 		URL myURL = null;
 		URLConnection httpsConn = null;
